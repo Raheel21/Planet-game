@@ -18,10 +18,10 @@ public class Healthpickup : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         print("pick up");
-        if (collider.CompareTag("Player"))
+        if (GetComponent<Collider>().CompareTag("Player"))
         {
 
-            Health health = collider.gameObject.GetComponent<Health>();
+            Health health = GetComponent<Collider>().gameObject.GetComponent<Health>();
             if(health != null)
             {
                 health.Damage(-50); 
