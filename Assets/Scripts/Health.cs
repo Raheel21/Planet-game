@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
-
     [SerializeField] int maximumHealth = 100;
-    int currentHealth = 0; 
+    int currentHealth = 0;
 
 	// Use this for initialization
 	void Start () {
 
-        currentHealth = maximumHealth; 
-		
+        currentHealth = maximumHealth; 		
+
 	}
 
-    public bool IsDead { get { return currentHealth <= 0;  } }
+    public bool IsDead { get { return currentHealth <= 0; } }
 
     public int getHealth()
     {
@@ -31,21 +30,18 @@ public class Health : MonoBehaviour {
 
     }
 
-    public void Damage(int damageValue)
+    public void Damage (int damageValue)
     {
-
         currentHealth -= damageValue;
 
         if (currentHealth <= 0)
         {
-
             Destroy(gameObject);
+
         }
 
-
-
     }
-        
+	
 	// Update is called once per frame
 	void Update () {
 		
