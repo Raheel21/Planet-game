@@ -16,14 +16,14 @@ public class Health : MonoBehaviour {
 
     public bool IsDead { get { return currentHealth <= 0; } }
 
-    public int getHealth()
+    public int GetHealth()
     {
 
         return currentHealth;
 
     }
 
-    public int getMaxHealth()
+    public int GetMaxHealth()
     {
 
         return maximumHealth;
