@@ -1,203 +1,585 @@
 fileFormatVersion: 2
 guid: 7628de543317a564ea672fe8ae1ae38f
-timeCreated: 1542892520
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: groundBricks1_0
-    21300002: groundBricks1_1
-    21300004: groundBricks1_2
-    21300006: groundBricks1_3
-    21300008: groundBricks1_4
-    21300010: groundBricks1_5
-    21300012: groundBricks1_6
-    21300014: groundBricks1_7
-    21300016: groundBricks1_8
-    21300018: groundBricks1_9
-    21300020: groundBricks1_10
-    21300022: groundBricks1_11
-    21300024: groundBricks1_12
-    21300026: groundBricks1_13
-    21300028: groundBricks1_14
-    21300030: groundBricks1_15
-    21300032: groundBricks1_16
-    21300034: groundBricks1_17
-    21300036: groundBricks1_18
-    21300038: groundBricks1_19
-    21300040: groundBricks1_20
-    21300042: groundBricks1_21
-    21300044: groundBricks1_22
-    21300046: groundBricks1_23
-    21300048: groundBricks1_24
-    21300050: groundBricks1_25
-    21300052: groundBricks1_26
-    21300054: groundBricks1_27
-    21300056: groundBricks1_28
-    21300058: groundBricks1_29
-    21300060: groundBricks1_30
-    21300062: groundBricks1_31
-    21300064: groundBricks1_32
-    21300066: groundBricks1_33
-    21300068: groundBricks1_34
-    21300070: groundBricks1_35
-    21300072: groundBricks1_36
-    21300074: groundBricks1_37
-    21300076: groundBricks1_38
-    21300078: groundBricks1_39
-    21300080: groundBricks1_40
-    21300082: groundBricks1_41
-    21300084: groundBricks1_42
-    21300086: groundBricks1_43
-    21300088: groundBricks1_44
-    21300090: groundBricks1_45
-    21300092: groundBricks1_46
-    21300094: groundBricks1_47
-    21300096: groundBricks1_48
-    21300098: groundBricks1_49
-    21300100: groundBricks1_50
-    21300102: groundBricks1_51
-    21300104: groundBricks1_52
-    21300106: groundBricks1_53
-    21300108: groundBricks1_54
-    21300110: groundBricks1_55
-    21300112: groundBricks1_56
-    21300114: groundBricks1_57
-    21300116: groundBricks1_58
-    21300118: groundBricks1_59
-    21300120: groundBricks1_60
-    21300122: groundBricks1_61
-    21300124: groundBricks1_62
-    21300126: groundBricks1_63
-    21300128: groundBricks1_64
-    21300130: groundBricks1_65
-    21300132: groundBricks1_66
-    21300134: groundBricks1_67
-    21300136: groundBricks1_68
-    21300138: groundBricks1_69
-    21300140: groundBricks1_70
-    21300142: groundBricks1_71
-    21300144: groundBricks1_72
-    21300146: groundBricks1_73
-    21300148: groundBricks1_74
-    21300150: groundBricks1_75
-    21300152: groundBricks1_76
-    21300154: groundBricks1_77
-    21300156: groundBricks1_78
-    21300158: groundBricks1_79
-    21300160: groundBricks1_80
-    21300162: groundBricks1_81
-    21300164: groundBricks1_82
-    21300166: groundBricks1_83
-    21300168: groundBricks1_84
-    21300170: groundBricks1_85
-    21300172: groundBricks1_86
-    21300174: groundBricks1_87
-    21300176: groundBricks1_88
-    21300178: groundBricks1_89
-    21300180: groundBricks1_90
-    21300182: groundBricks1_91
-    21300184: groundBricks1_92
-    21300186: groundBricks1_93
-    21300188: groundBricks1_94
-    21300190: groundBricks1_95
-    21300192: groundBricks1_96
-    21300194: groundBricks1_97
-    21300196: groundBricks1_98
-    21300198: groundBricks1_99
-    21300200: groundBricks1_100
-    21300202: groundBricks1_101
-    21300204: groundBricks1_102
-    21300206: groundBricks1_103
-    21300208: groundBricks1_104
-    21300210: groundBricks1_105
-    21300212: groundBricks1_106
-    21300214: groundBricks1_107
-    21300216: groundBricks1_108
-    21300218: groundBricks1_109
-    21300220: groundBricks1_110
-    21300222: groundBricks1_111
-    21300224: groundBricks1_112
-    21300226: groundBricks1_113
-    21300228: groundBricks1_114
-    21300230: groundBricks1_115
-    21300232: groundBricks1_116
-    21300234: groundBricks1_117
-    21300236: groundBricks1_118
-    21300238: groundBricks1_119
-    21300240: groundBricks1_120
-    21300242: groundBricks1_121
-    21300244: groundBricks1_122
-    21300246: groundBricks1_123
-    21300248: groundBricks1_124
-    21300250: groundBricks1_125
-    21300252: groundBricks1_126
-    21300254: groundBricks1_127
-    21300256: groundBricks1_128
-    21300258: groundBricks1_129
-    21300260: groundBricks1_130
-    21300262: groundBricks1_131
-    21300264: groundBricks1_132
-    21300266: groundBricks1_133
-    21300268: groundBricks1_134
-    21300270: groundBricks1_135
-    21300272: groundBricks1_136
-    21300274: groundBricks1_137
-    21300276: groundBricks1_138
-    21300278: groundBricks1_139
-    21300280: groundBricks1_140
-    21300282: groundBricks1_141
-    21300284: groundBricks1_142
-    21300286: groundBricks1_143
-    21300288: groundBricks1_144
-    21300290: groundBricks1_145
-    21300292: groundBricks1_146
-    21300294: groundBricks1_147
-    21300296: groundBricks1_148
-    21300298: groundBricks1_149
-    21300300: groundBricks1_150
-    21300302: groundBricks1_151
-    21300304: groundBricks1_152
-    21300306: groundBricks1_153
-    21300308: groundBricks1_154
-    21300310: groundBricks1_155
-    21300312: groundBricks1_156
-    21300314: groundBricks1_157
-    21300316: groundBricks1_158
-    21300318: groundBricks1_159
-    21300320: groundBricks1_160
-    21300322: groundBricks1_161
-    21300324: groundBricks1_162
-    21300326: groundBricks1_163
-    21300328: groundBricks1_164
-    21300330: groundBricks1_165
-    21300332: groundBricks1_166
-    21300334: groundBricks1_167
-    21300336: groundBricks1_168
-    21300338: groundBricks1_169
-    21300340: groundBricks1_170
-    21300342: groundBricks1_171
-    21300344: groundBricks1_172
-    21300346: groundBricks1_173
-    21300348: groundBricks1_174
-    21300350: groundBricks1_175
-    21300352: groundBricks1_176
-    21300354: groundBricks1_177
-    21300356: groundBricks1_178
-    21300358: groundBricks1_179
-    21300360: groundBricks1_180
-    21300362: groundBricks1_181
-    21300364: groundBricks1_182
-    21300366: groundBricks1_183
-    21300368: groundBricks1_184
-    21300370: groundBricks1_185
-    21300372: groundBricks1_186
-    21300374: groundBricks1_187
-    21300376: groundBricks1_188
-    21300378: groundBricks1_189
-    21300380: groundBricks1_190
-    21300382: groundBricks1_191
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: groundBricks1_0
+  - first:
+      213: 21300002
+    second: groundBricks1_1
+  - first:
+      213: 21300004
+    second: groundBricks1_2
+  - first:
+      213: 21300006
+    second: groundBricks1_3
+  - first:
+      213: 21300008
+    second: groundBricks1_4
+  - first:
+      213: 21300010
+    second: groundBricks1_5
+  - first:
+      213: 21300012
+    second: groundBricks1_6
+  - first:
+      213: 21300014
+    second: groundBricks1_7
+  - first:
+      213: 21300016
+    second: groundBricks1_8
+  - first:
+      213: 21300018
+    second: groundBricks1_9
+  - first:
+      213: 21300020
+    second: groundBricks1_10
+  - first:
+      213: 21300022
+    second: groundBricks1_11
+  - first:
+      213: 21300024
+    second: groundBricks1_12
+  - first:
+      213: 21300026
+    second: groundBricks1_13
+  - first:
+      213: 21300028
+    second: groundBricks1_14
+  - first:
+      213: 21300030
+    second: groundBricks1_15
+  - first:
+      213: 21300032
+    second: groundBricks1_16
+  - first:
+      213: 21300034
+    second: groundBricks1_17
+  - first:
+      213: 21300036
+    second: groundBricks1_18
+  - first:
+      213: 21300038
+    second: groundBricks1_19
+  - first:
+      213: 21300040
+    second: groundBricks1_20
+  - first:
+      213: 21300042
+    second: groundBricks1_21
+  - first:
+      213: 21300044
+    second: groundBricks1_22
+  - first:
+      213: 21300046
+    second: groundBricks1_23
+  - first:
+      213: 21300048
+    second: groundBricks1_24
+  - first:
+      213: 21300050
+    second: groundBricks1_25
+  - first:
+      213: 21300052
+    second: groundBricks1_26
+  - first:
+      213: 21300054
+    second: groundBricks1_27
+  - first:
+      213: 21300056
+    second: groundBricks1_28
+  - first:
+      213: 21300058
+    second: groundBricks1_29
+  - first:
+      213: 21300060
+    second: groundBricks1_30
+  - first:
+      213: 21300062
+    second: groundBricks1_31
+  - first:
+      213: 21300064
+    second: groundBricks1_32
+  - first:
+      213: 21300066
+    second: groundBricks1_33
+  - first:
+      213: 21300068
+    second: groundBricks1_34
+  - first:
+      213: 21300070
+    second: groundBricks1_35
+  - first:
+      213: 21300072
+    second: groundBricks1_36
+  - first:
+      213: 21300074
+    second: groundBricks1_37
+  - first:
+      213: 21300076
+    second: groundBricks1_38
+  - first:
+      213: 21300078
+    second: groundBricks1_39
+  - first:
+      213: 21300080
+    second: groundBricks1_40
+  - first:
+      213: 21300082
+    second: groundBricks1_41
+  - first:
+      213: 21300084
+    second: groundBricks1_42
+  - first:
+      213: 21300086
+    second: groundBricks1_43
+  - first:
+      213: 21300088
+    second: groundBricks1_44
+  - first:
+      213: 21300090
+    second: groundBricks1_45
+  - first:
+      213: 21300092
+    second: groundBricks1_46
+  - first:
+      213: 21300094
+    second: groundBricks1_47
+  - first:
+      213: 21300096
+    second: groundBricks1_48
+  - first:
+      213: 21300098
+    second: groundBricks1_49
+  - first:
+      213: 21300100
+    second: groundBricks1_50
+  - first:
+      213: 21300102
+    second: groundBricks1_51
+  - first:
+      213: 21300104
+    second: groundBricks1_52
+  - first:
+      213: 21300106
+    second: groundBricks1_53
+  - first:
+      213: 21300108
+    second: groundBricks1_54
+  - first:
+      213: 21300110
+    second: groundBricks1_55
+  - first:
+      213: 21300112
+    second: groundBricks1_56
+  - first:
+      213: 21300114
+    second: groundBricks1_57
+  - first:
+      213: 21300116
+    second: groundBricks1_58
+  - first:
+      213: 21300118
+    second: groundBricks1_59
+  - first:
+      213: 21300120
+    second: groundBricks1_60
+  - first:
+      213: 21300122
+    second: groundBricks1_61
+  - first:
+      213: 21300124
+    second: groundBricks1_62
+  - first:
+      213: 21300126
+    second: groundBricks1_63
+  - first:
+      213: 21300128
+    second: groundBricks1_64
+  - first:
+      213: 21300130
+    second: groundBricks1_65
+  - first:
+      213: 21300132
+    second: groundBricks1_66
+  - first:
+      213: 21300134
+    second: groundBricks1_67
+  - first:
+      213: 21300136
+    second: groundBricks1_68
+  - first:
+      213: 21300138
+    second: groundBricks1_69
+  - first:
+      213: 21300140
+    second: groundBricks1_70
+  - first:
+      213: 21300142
+    second: groundBricks1_71
+  - first:
+      213: 21300144
+    second: groundBricks1_72
+  - first:
+      213: 21300146
+    second: groundBricks1_73
+  - first:
+      213: 21300148
+    second: groundBricks1_74
+  - first:
+      213: 21300150
+    second: groundBricks1_75
+  - first:
+      213: 21300152
+    second: groundBricks1_76
+  - first:
+      213: 21300154
+    second: groundBricks1_77
+  - first:
+      213: 21300156
+    second: groundBricks1_78
+  - first:
+      213: 21300158
+    second: groundBricks1_79
+  - first:
+      213: 21300160
+    second: groundBricks1_80
+  - first:
+      213: 21300162
+    second: groundBricks1_81
+  - first:
+      213: 21300164
+    second: groundBricks1_82
+  - first:
+      213: 21300166
+    second: groundBricks1_83
+  - first:
+      213: 21300168
+    second: groundBricks1_84
+  - first:
+      213: 21300170
+    second: groundBricks1_85
+  - first:
+      213: 21300172
+    second: groundBricks1_86
+  - first:
+      213: 21300174
+    second: groundBricks1_87
+  - first:
+      213: 21300176
+    second: groundBricks1_88
+  - first:
+      213: 21300178
+    second: groundBricks1_89
+  - first:
+      213: 21300180
+    second: groundBricks1_90
+  - first:
+      213: 21300182
+    second: groundBricks1_91
+  - first:
+      213: 21300184
+    second: groundBricks1_92
+  - first:
+      213: 21300186
+    second: groundBricks1_93
+  - first:
+      213: 21300188
+    second: groundBricks1_94
+  - first:
+      213: 21300190
+    second: groundBricks1_95
+  - first:
+      213: 21300192
+    second: groundBricks1_96
+  - first:
+      213: 21300194
+    second: groundBricks1_97
+  - first:
+      213: 21300196
+    second: groundBricks1_98
+  - first:
+      213: 21300198
+    second: groundBricks1_99
+  - first:
+      213: 21300200
+    second: groundBricks1_100
+  - first:
+      213: 21300202
+    second: groundBricks1_101
+  - first:
+      213: 21300204
+    second: groundBricks1_102
+  - first:
+      213: 21300206
+    second: groundBricks1_103
+  - first:
+      213: 21300208
+    second: groundBricks1_104
+  - first:
+      213: 21300210
+    second: groundBricks1_105
+  - first:
+      213: 21300212
+    second: groundBricks1_106
+  - first:
+      213: 21300214
+    second: groundBricks1_107
+  - first:
+      213: 21300216
+    second: groundBricks1_108
+  - first:
+      213: 21300218
+    second: groundBricks1_109
+  - first:
+      213: 21300220
+    second: groundBricks1_110
+  - first:
+      213: 21300222
+    second: groundBricks1_111
+  - first:
+      213: 21300224
+    second: groundBricks1_112
+  - first:
+      213: 21300226
+    second: groundBricks1_113
+  - first:
+      213: 21300228
+    second: groundBricks1_114
+  - first:
+      213: 21300230
+    second: groundBricks1_115
+  - first:
+      213: 21300232
+    second: groundBricks1_116
+  - first:
+      213: 21300234
+    second: groundBricks1_117
+  - first:
+      213: 21300236
+    second: groundBricks1_118
+  - first:
+      213: 21300238
+    second: groundBricks1_119
+  - first:
+      213: 21300240
+    second: groundBricks1_120
+  - first:
+      213: 21300242
+    second: groundBricks1_121
+  - first:
+      213: 21300244
+    second: groundBricks1_122
+  - first:
+      213: 21300246
+    second: groundBricks1_123
+  - first:
+      213: 21300248
+    second: groundBricks1_124
+  - first:
+      213: 21300250
+    second: groundBricks1_125
+  - first:
+      213: 21300252
+    second: groundBricks1_126
+  - first:
+      213: 21300254
+    second: groundBricks1_127
+  - first:
+      213: 21300256
+    second: groundBricks1_128
+  - first:
+      213: 21300258
+    second: groundBricks1_129
+  - first:
+      213: 21300260
+    second: groundBricks1_130
+  - first:
+      213: 21300262
+    second: groundBricks1_131
+  - first:
+      213: 21300264
+    second: groundBricks1_132
+  - first:
+      213: 21300266
+    second: groundBricks1_133
+  - first:
+      213: 21300268
+    second: groundBricks1_134
+  - first:
+      213: 21300270
+    second: groundBricks1_135
+  - first:
+      213: 21300272
+    second: groundBricks1_136
+  - first:
+      213: 21300274
+    second: groundBricks1_137
+  - first:
+      213: 21300276
+    second: groundBricks1_138
+  - first:
+      213: 21300278
+    second: groundBricks1_139
+  - first:
+      213: 21300280
+    second: groundBricks1_140
+  - first:
+      213: 21300282
+    second: groundBricks1_141
+  - first:
+      213: 21300284
+    second: groundBricks1_142
+  - first:
+      213: 21300286
+    second: groundBricks1_143
+  - first:
+      213: 21300288
+    second: groundBricks1_144
+  - first:
+      213: 21300290
+    second: groundBricks1_145
+  - first:
+      213: 21300292
+    second: groundBricks1_146
+  - first:
+      213: 21300294
+    second: groundBricks1_147
+  - first:
+      213: 21300296
+    second: groundBricks1_148
+  - first:
+      213: 21300298
+    second: groundBricks1_149
+  - first:
+      213: 21300300
+    second: groundBricks1_150
+  - first:
+      213: 21300302
+    second: groundBricks1_151
+  - first:
+      213: 21300304
+    second: groundBricks1_152
+  - first:
+      213: 21300306
+    second: groundBricks1_153
+  - first:
+      213: 21300308
+    second: groundBricks1_154
+  - first:
+      213: 21300310
+    second: groundBricks1_155
+  - first:
+      213: 21300312
+    second: groundBricks1_156
+  - first:
+      213: 21300314
+    second: groundBricks1_157
+  - first:
+      213: 21300316
+    second: groundBricks1_158
+  - first:
+      213: 21300318
+    second: groundBricks1_159
+  - first:
+      213: 21300320
+    second: groundBricks1_160
+  - first:
+      213: 21300322
+    second: groundBricks1_161
+  - first:
+      213: 21300324
+    second: groundBricks1_162
+  - first:
+      213: 21300326
+    second: groundBricks1_163
+  - first:
+      213: 21300328
+    second: groundBricks1_164
+  - first:
+      213: 21300330
+    second: groundBricks1_165
+  - first:
+      213: 21300332
+    second: groundBricks1_166
+  - first:
+      213: 21300334
+    second: groundBricks1_167
+  - first:
+      213: 21300336
+    second: groundBricks1_168
+  - first:
+      213: 21300338
+    second: groundBricks1_169
+  - first:
+      213: 21300340
+    second: groundBricks1_170
+  - first:
+      213: 21300342
+    second: groundBricks1_171
+  - first:
+      213: 21300344
+    second: groundBricks1_172
+  - first:
+      213: 21300346
+    second: groundBricks1_173
+  - first:
+      213: 21300348
+    second: groundBricks1_174
+  - first:
+      213: 21300350
+    second: groundBricks1_175
+  - first:
+      213: 21300352
+    second: groundBricks1_176
+  - first:
+      213: 21300354
+    second: groundBricks1_177
+  - first:
+      213: 21300356
+    second: groundBricks1_178
+  - first:
+      213: 21300358
+    second: groundBricks1_179
+  - first:
+      213: 21300360
+    second: groundBricks1_180
+  - first:
+      213: 21300362
+    second: groundBricks1_181
+  - first:
+      213: 21300364
+    second: groundBricks1_182
+  - first:
+      213: 21300366
+    second: groundBricks1_183
+  - first:
+      213: 21300368
+    second: groundBricks1_184
+  - first:
+      213: 21300370
+    second: groundBricks1_185
+  - first:
+      213: 21300372
+    second: groundBricks1_186
+  - first:
+      213: 21300374
+    second: groundBricks1_187
+  - first:
+      213: 21300376
+    second: groundBricks1_188
+  - first:
+      213: 21300378
+    second: groundBricks1_189
+  - first:
+      213: 21300380
+    second: groundBricks1_190
+  - first:
+      213: 21300382
+    second: groundBricks1_191
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -215,6 +597,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -225,7 +609,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -237,18 +621,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -258,7 +645,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -268,7 +657,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: iPhone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -278,7 +669,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: tvOS
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -288,7 +681,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -298,7 +693,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Windows Store Apps
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -308,7 +705,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: WebGL
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -318,6 +717,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -335,6 +735,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_1
       rect:
@@ -349,6 +756,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_2
       rect:
@@ -363,6 +777,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_3
       rect:
@@ -377,6 +798,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_4
       rect:
@@ -391,6 +819,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_5
       rect:
@@ -405,6 +840,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_6
       rect:
@@ -419,6 +861,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_7
       rect:
@@ -433,6 +882,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_8
       rect:
@@ -447,6 +903,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_9
       rect:
@@ -461,6 +924,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_10
       rect:
@@ -475,6 +945,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_11
       rect:
@@ -489,6 +966,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_12
       rect:
@@ -503,6 +987,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_13
       rect:
@@ -517,6 +1008,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_14
       rect:
@@ -531,6 +1029,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_15
       rect:
@@ -545,6 +1050,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_16
       rect:
@@ -559,6 +1071,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_17
       rect:
@@ -573,6 +1092,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_18
       rect:
@@ -587,6 +1113,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_19
       rect:
@@ -601,6 +1134,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_20
       rect:
@@ -615,6 +1155,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_21
       rect:
@@ -629,6 +1176,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_22
       rect:
@@ -643,6 +1197,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_23
       rect:
@@ -657,6 +1218,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_24
       rect:
@@ -671,6 +1239,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_25
       rect:
@@ -685,6 +1260,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_26
       rect:
@@ -699,6 +1281,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_27
       rect:
@@ -713,6 +1302,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_28
       rect:
@@ -727,6 +1323,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_29
       rect:
@@ -741,6 +1344,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_30
       rect:
@@ -755,6 +1365,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_31
       rect:
@@ -769,6 +1386,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_32
       rect:
@@ -783,6 +1407,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_33
       rect:
@@ -797,6 +1428,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_34
       rect:
@@ -811,6 +1449,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_35
       rect:
@@ -825,6 +1470,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_36
       rect:
@@ -839,6 +1491,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_37
       rect:
@@ -853,6 +1512,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_38
       rect:
@@ -867,6 +1533,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_39
       rect:
@@ -881,6 +1554,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_40
       rect:
@@ -895,6 +1575,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_41
       rect:
@@ -909,6 +1596,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_42
       rect:
@@ -923,6 +1617,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_43
       rect:
@@ -937,6 +1638,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_44
       rect:
@@ -951,6 +1659,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_45
       rect:
@@ -965,6 +1680,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_46
       rect:
@@ -979,6 +1701,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_47
       rect:
@@ -993,6 +1722,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_48
       rect:
@@ -1007,6 +1743,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_49
       rect:
@@ -1021,6 +1764,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_50
       rect:
@@ -1035,6 +1785,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_51
       rect:
@@ -1049,6 +1806,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_52
       rect:
@@ -1063,6 +1827,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_53
       rect:
@@ -1077,6 +1848,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_54
       rect:
@@ -1091,6 +1869,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_55
       rect:
@@ -1105,6 +1890,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_56
       rect:
@@ -1119,6 +1911,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_57
       rect:
@@ -1133,6 +1932,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_58
       rect:
@@ -1147,6 +1953,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_59
       rect:
@@ -1161,6 +1974,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_60
       rect:
@@ -1175,6 +1995,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_61
       rect:
@@ -1189,6 +2016,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_62
       rect:
@@ -1203,6 +2037,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_63
       rect:
@@ -1217,6 +2058,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_64
       rect:
@@ -1231,6 +2079,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_65
       rect:
@@ -1245,6 +2100,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_66
       rect:
@@ -1259,6 +2121,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_67
       rect:
@@ -1273,6 +2142,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_68
       rect:
@@ -1287,6 +2163,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_69
       rect:
@@ -1301,6 +2184,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_70
       rect:
@@ -1315,6 +2205,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_71
       rect:
@@ -1329,6 +2226,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_72
       rect:
@@ -1343,6 +2247,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_73
       rect:
@@ -1357,6 +2268,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_74
       rect:
@@ -1371,6 +2289,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_75
       rect:
@@ -1385,6 +2310,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_76
       rect:
@@ -1399,6 +2331,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_77
       rect:
@@ -1413,6 +2352,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_78
       rect:
@@ -1427,6 +2373,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_79
       rect:
@@ -1441,6 +2394,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_80
       rect:
@@ -1455,6 +2415,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_81
       rect:
@@ -1469,6 +2436,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_82
       rect:
@@ -1483,6 +2457,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_83
       rect:
@@ -1497,6 +2478,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_84
       rect:
@@ -1511,6 +2499,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_85
       rect:
@@ -1525,6 +2520,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_86
       rect:
@@ -1539,6 +2541,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_87
       rect:
@@ -1553,6 +2562,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_88
       rect:
@@ -1567,6 +2583,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_89
       rect:
@@ -1581,6 +2604,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_90
       rect:
@@ -1595,6 +2625,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_91
       rect:
@@ -1609,6 +2646,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_92
       rect:
@@ -1623,6 +2667,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_93
       rect:
@@ -1637,6 +2688,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_94
       rect:
@@ -1651,6 +2709,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_95
       rect:
@@ -1665,6 +2730,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_96
       rect:
@@ -1679,6 +2751,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_97
       rect:
@@ -1693,6 +2772,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_98
       rect:
@@ -1707,6 +2793,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_99
       rect:
@@ -1721,6 +2814,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_100
       rect:
@@ -1735,6 +2835,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_101
       rect:
@@ -1749,6 +2856,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_102
       rect:
@@ -1763,6 +2877,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_103
       rect:
@@ -1777,6 +2898,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_104
       rect:
@@ -1791,6 +2919,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_105
       rect:
@@ -1805,6 +2940,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_106
       rect:
@@ -1819,6 +2961,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_107
       rect:
@@ -1833,6 +2982,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_108
       rect:
@@ -1847,6 +3003,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_109
       rect:
@@ -1861,6 +3024,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_110
       rect:
@@ -1875,6 +3045,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_111
       rect:
@@ -1889,6 +3066,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_112
       rect:
@@ -1903,6 +3087,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_113
       rect:
@@ -1917,6 +3108,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_114
       rect:
@@ -1931,6 +3129,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_115
       rect:
@@ -1945,6 +3150,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_116
       rect:
@@ -1959,6 +3171,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_117
       rect:
@@ -1973,6 +3192,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_118
       rect:
@@ -1987,6 +3213,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_119
       rect:
@@ -2001,6 +3234,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_120
       rect:
@@ -2015,6 +3255,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_121
       rect:
@@ -2029,6 +3276,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_122
       rect:
@@ -2043,6 +3297,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_123
       rect:
@@ -2057,6 +3318,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_124
       rect:
@@ -2071,6 +3339,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_125
       rect:
@@ -2085,6 +3360,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_126
       rect:
@@ -2099,6 +3381,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_127
       rect:
@@ -2113,6 +3402,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_128
       rect:
@@ -2127,6 +3423,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_129
       rect:
@@ -2141,6 +3444,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_130
       rect:
@@ -2155,6 +3465,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_131
       rect:
@@ -2169,6 +3486,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_132
       rect:
@@ -2183,6 +3507,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_133
       rect:
@@ -2197,6 +3528,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_134
       rect:
@@ -2211,6 +3549,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_135
       rect:
@@ -2225,6 +3570,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_136
       rect:
@@ -2239,6 +3591,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_137
       rect:
@@ -2253,6 +3612,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_138
       rect:
@@ -2267,6 +3633,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_139
       rect:
@@ -2281,6 +3654,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_140
       rect:
@@ -2295,6 +3675,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_141
       rect:
@@ -2309,6 +3696,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_142
       rect:
@@ -2323,6 +3717,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_143
       rect:
@@ -2337,6 +3738,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_144
       rect:
@@ -2351,6 +3759,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_145
       rect:
@@ -2365,6 +3780,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_146
       rect:
@@ -2379,6 +3801,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_147
       rect:
@@ -2393,6 +3822,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_148
       rect:
@@ -2407,6 +3843,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84405410000000000800000000000000
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_149
       rect:
@@ -2421,6 +3864,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4405410000000000800000000000000
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_150
       rect:
@@ -2435,6 +3885,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4405410000000000800000000000000
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_151
       rect:
@@ -2449,6 +3906,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4405410000000000800000000000000
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_152
       rect:
@@ -2463,6 +3927,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_153
       rect:
@@ -2477,6 +3948,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_154
       rect:
@@ -2491,6 +3969,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45405410000000000800000000000000
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_155
       rect:
@@ -2505,6 +3990,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_156
       rect:
@@ -2519,6 +4011,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_157
       rect:
@@ -2533,6 +4032,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5405410000000000800000000000000
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_158
       rect:
@@ -2547,6 +4053,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_159
       rect:
@@ -2561,6 +4074,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5405410000000000800000000000000
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_160
       rect:
@@ -2575,6 +4095,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06405410000000000800000000000000
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_161
       rect:
@@ -2589,6 +4116,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26405410000000000800000000000000
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_162
       rect:
@@ -2603,6 +4137,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46405410000000000800000000000000
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_163
       rect:
@@ -2617,6 +4158,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66405410000000000800000000000000
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_164
       rect:
@@ -2631,6 +4179,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86405410000000000800000000000000
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_165
       rect:
@@ -2645,6 +4200,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6405410000000000800000000000000
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_166
       rect:
@@ -2659,6 +4221,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6405410000000000800000000000000
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_167
       rect:
@@ -2673,6 +4242,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6405410000000000800000000000000
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_168
       rect:
@@ -2687,6 +4263,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07405410000000000800000000000000
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_169
       rect:
@@ -2701,6 +4284,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27405410000000000800000000000000
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_170
       rect:
@@ -2715,6 +4305,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47405410000000000800000000000000
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_171
       rect:
@@ -2729,6 +4326,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67405410000000000800000000000000
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_172
       rect:
@@ -2743,6 +4347,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87405410000000000800000000000000
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_173
       rect:
@@ -2757,6 +4368,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7405410000000000800000000000000
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_174
       rect:
@@ -2771,6 +4389,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7405410000000000800000000000000
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_175
       rect:
@@ -2785,6 +4410,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7405410000000000800000000000000
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_176
       rect:
@@ -2799,6 +4431,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08405410000000000800000000000000
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_177
       rect:
@@ -2813,6 +4452,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28405410000000000800000000000000
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_178
       rect:
@@ -2827,6 +4473,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48405410000000000800000000000000
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_179
       rect:
@@ -2841,6 +4494,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68405410000000000800000000000000
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_180
       rect:
@@ -2855,6 +4515,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88405410000000000800000000000000
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_181
       rect:
@@ -2869,6 +4536,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8405410000000000800000000000000
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_182
       rect:
@@ -2883,6 +4557,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8405410000000000800000000000000
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_183
       rect:
@@ -2897,6 +4578,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8405410000000000800000000000000
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_184
       rect:
@@ -2911,6 +4599,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09405410000000000800000000000000
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_185
       rect:
@@ -2925,6 +4620,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29405410000000000800000000000000
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_186
       rect:
@@ -2939,6 +4641,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49405410000000000800000000000000
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_187
       rect:
@@ -2953,6 +4662,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69405410000000000800000000000000
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_188
       rect:
@@ -2967,6 +4683,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89405410000000000800000000000000
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_189
       rect:
@@ -2981,6 +4704,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a9405410000000000800000000000000
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_190
       rect:
@@ -2995,6 +4725,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9405410000000000800000000000000
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: groundBricks1_191
       rect:
@@ -3009,13 +4746,30 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9405410000000000800000000000000
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline:
     - - {x: -512, y: 384}
       - {x: -512, y: 317.8808}
       - {x: -400.106, y: 315.6203}
       - {x: -398.9757, y: 381.7395}
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
