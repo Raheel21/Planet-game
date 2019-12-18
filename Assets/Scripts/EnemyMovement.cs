@@ -7,8 +7,8 @@ public class EnemyMovement : MonoBehaviour {
     Transform playerModel;
     CharacterController controller;
 
-    [SerializeField] float moveSpeed = 5.0f;
-    [SerializeField] float distance = 5.0f;
+    [SerializeField] float moveSpeed = 2.0f;
+    [SerializeField] float distance = 10.0f;
 
     void Start()
     {
