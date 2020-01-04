@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.45131534, g: 0.5009566, b: 0.57313204, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -735,7 +735,6 @@ GameObject:
   - component: {fileID: 1129227208}
   - component: {fileID: 1129227213}
   - component: {fileID: 1129227212}
-  - component: {fileID: 1129227211}
   - component: {fileID: 1129227210}
   - component: {fileID: 1129227209}
   m_Layer: 0
@@ -786,16 +785,7 @@ Skybox:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129227207}
   m_Enabled: 1
-  m_CustomSkybox: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
---- !u!81 &1129227211
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1266639897244760621, guid: 897684888b34d72499cf8453daccd509,
-    type: 3}
-  m_PrefabInstance: {fileID: 1266639897944572255}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129227207}
-  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 656058fe318eb48558d21d66d1a79a2b, type: 2}
 --- !u!124 &1129227212
 Behaviour:
   m_ObjectHideFlags: 0
@@ -816,7 +806,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -933,13 +923,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200864041}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.4178396, y: -0.56572765, z: -0.06337384, w: 0.70805794}
+  m_LocalPosition: {x: 48, y: 159, z: 213.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 31.333002, y: -89.281006, z: -41.190002}
 --- !u!1001 &314556916117812012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1021,6 +1011,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1266639898380237242, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266639898380237246, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1266639898380237247, guid: 897684888b34d72499cf8453daccd509,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1091,21 +1091,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.967372
       objectReference: {fileID: 0}
-    - target: {fileID: 1266639898380237246, guid: 897684888b34d72499cf8453daccd509,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1266639898380237242, guid: 897684888b34d72499cf8453daccd509,
-        type: 3}
-      propertyPath: m_Radius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1266639897244760622, guid: 897684888b34d72499cf8453daccd509,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
     - target: {fileID: 1266639897767185445, guid: 897684888b34d72499cf8453daccd509,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1116,7 +1101,28 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1266639897244760622, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266639897244760619, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266639897244760619, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266639897244760619, guid: 897684888b34d72499cf8453daccd509,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 897684888b34d72499cf8453daccd509, type: 3}
 --- !u!1001 &5523111826651002001
 PrefabInstance:
