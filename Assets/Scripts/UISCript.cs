@@ -6,16 +6,16 @@ using UnityEngine;
 public class UISCript : MonoBehaviour
 {
 
-    public Health HealthScript;  
-    public Text HealthText;
-    public Slider HealthBar; 
+    public Health healthScript;  
+    public Text healthText;
+    public Slider healthBar; 
 
     // Start is called before the first frame update
     void Start()
     {
-        HealthBar.maxValue = HealthScript.GetMaxHealth();
-        HealthBar.value = HealthScript.GetHealth();
-        HealthText.text = "Health" + HealthScript.GetHealth(); 
+        healthBar.maxValue = healthScript.GetMaxHealth();
+        healthBar.value = healthScript.GetHealth();
+        healthText.text = "Health" + healthScript.GetHealth(); 
         
 
 
