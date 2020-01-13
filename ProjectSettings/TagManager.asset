@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Door
   - SpawnPoint
+  - Enemy
+  - Player 2
   layers:
   - Default
   - TransparentFX

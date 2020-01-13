@@ -36,7 +36,10 @@ public class Health : MonoBehaviour {
 
         if (currentHealth <= 0)
         {
+
             Destroy(gameObject);
+            Debug.Log("Player Destroyed");
+
 
         }
 
