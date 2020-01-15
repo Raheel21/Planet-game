@@ -29,7 +29,7 @@ public class Shooting : MonoBehaviour {
             if (Physics.Raycast (mouseRay, out hitInfo))
             {
                 Debug.DrawLine(transform.position, hitInfo.point, Color.red, 5.0f);
-                Health enemyHealth = hitInfo.transform.GetComponent<Health>();
+                EnemyHealth enemyHealth = hitInfo.transform.GetComponent<EnemyHealth>();
                 if(enemyHealth !=null)
                 {
 

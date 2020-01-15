@@ -36,8 +36,6 @@ public class Health : MonoBehaviour {
 
         if (currentHealth <= 0)
         {
-            UISCript.instance.killCount++;
-            UISCript.instance.UpdateKillCounterUI();
             Destroy(gameObject);
             Debug.Log("Player Destroyed");
 

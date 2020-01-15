@@ -6,8 +6,8 @@ public class EnemyHealth : MonoBehaviour
 {
 
 
-    [SerializeField] int maximumHealth = 100;
-    [SerializeField] int currentHealth = 100;
+     int maximumHealth = 100;
+     int currentHealth = 100;
 
     // Use this for initialization
     void Start()

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 114501595451547300}
   - component: {fileID: 143243737190026920}
   - component: {fileID: -4381456326737266937}
-  - component: {fileID: 289563796398829938}
+  - component: {fileID: 7006156952503015010}
   m_Layer: 0
   m_Name: Enemy V3
   m_TagString: Untagged
@@ -127,7 +127,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.8523035
   m_Center: {x: 0.027845502, y: -0.07210001, z: 0.0387415}
---- !u!114 &289563796398829938
+--- !u!114 &7006156952503015010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1815424581463558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bb3623ff6535645953a9b0f21c8b59, type: 3}
+  m_Script: {fileID: 11500000, guid: cce2e7e42e5a1874f8ece4033d89b544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maximumHealth: 100
