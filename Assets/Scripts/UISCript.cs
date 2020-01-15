@@ -40,7 +40,7 @@ public class UISCript : MonoBehaviour
         }    
     }
 
-    public void UpdatekillCounterUI()
+    public void UpdateKillCounterUI() 
     {
 
         killCounter_TMP.text = killCount.ToString(); 

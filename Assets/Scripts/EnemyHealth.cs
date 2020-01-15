@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class EnemyHealth : MonoBehaviour
+{
+
 
     [SerializeField] int maximumHealth = 100;
     [SerializeField] int currentHealth = 100;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
 
-        currentHealth = maximumHealth; 		
+        currentHealth = maximumHealth;
 
-	}
+    }
 
     public bool IsDead { get { return currentHealth <= 0; } }
 
@@ -30,24 +33,23 @@ public class Health : MonoBehaviour {
 
     }
 
-    public void Damage (int damageValue)
+    public void Damage(int damageValue)
     {
         currentHealth -= damageValue;
 
         if (currentHealth <= 0)
         {
+
             UISCript.instance.killCount++;
-            UISCript.instance.UpdateKillCounterUI();
+            UISCript.instance.UpdateKillCounterUI(); 
+            Debug.Log("Enemy Destroyed");
             Destroy(gameObject);
-            Debug.Log("Player Destroyed");
 
 
         }
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
+
+
+
