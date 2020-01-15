@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class Health : MonoBehaviour
+{
 
-    [SerializeField] int maximumHealth = 100;
-    [SerializeField] int currentHealth = 100;
+    [SerializeField]  int maximumHealth = 100;
+    [SerializeField]  int currentHealth = 100;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
 
-        currentHealth = maximumHealth; 		
+        currentHealth = maximumHealth;
 
-	}
+    }
 
     public bool IsDead { get { return currentHealth <= 0; } }
 
@@ -30,7 +32,7 @@ public class Health : MonoBehaviour {
 
     }
 
-    public void Damage (int damageValue)
+    public void Damage(int damageValue)
     {
         currentHealth -= damageValue;
 
@@ -43,9 +45,11 @@ public class Health : MonoBehaviour {
         }
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+
+    // Update is called once per frame
+    void Update()
+        {
+
+        }
+    }
+

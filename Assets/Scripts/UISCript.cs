@@ -12,8 +12,6 @@ public class UISCript : MonoBehaviour
     [HideInInspector]
     public int killCount; 
 
-
-
     public Health healthScript;  
     public Text healthText;
     public Slider healthBar;
@@ -51,6 +49,13 @@ public class UISCript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        healthBar.maxValue = healthScript.GetMaxHealth();
+        healthBar.value = healthScript.GetHealth();
+        healthText.text = "Health" + healthScript.GetHealth();
+    
+       
+
     }
+
+
 }

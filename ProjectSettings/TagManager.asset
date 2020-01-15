@@ -9,6 +9,7 @@ TagManager:
   - SpawnPoint
   - Enemy
   - Player 2
+  - HealthPickUp
   layers:
   - Default
   - TransparentFX
