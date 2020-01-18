@@ -19,14 +19,16 @@ public class healPickup : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-
         Health health = collider.GetComponent<Health>();
-        if (health != null)
+        if (health != null && collider.tag == "Player")
         {
-            Debug.Log("Pick Up"); 
-            health.Damage(-50); 
+            GetComponent<MeshRenderer>().enabled = false;
+            Destroy(gameObject);    
+            Debug.Log("Pick Up");
+            health.Damage(-50);
         }
 
     }
+
 
 }

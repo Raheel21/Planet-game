@@ -50,6 +50,22 @@ public class Health : MonoBehaviour
     void Update()
         {
 
+        if(currentHealth > 100)
+        {
+
+            currentHealth = 100; 
+
+        }
+
+
+
+
+
+
+
+
+
+
         }
     }
 
