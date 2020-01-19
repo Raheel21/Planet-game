@@ -15,13 +15,20 @@ public class UISCript : MonoBehaviour
     public Health healthScript;  
     public Text healthText;
     public Slider healthBar;
+    
 
     // Start is called before the first frame update
     void Start()
     {
+        GameManager manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>(); 
+
         healthBar.maxValue = healthScript.GetMaxHealth();
         healthBar.value = healthScript.GetHealth();
         healthText.text = "Health" + healthScript.GetHealth();
+
+        StartCoroutine("UpdateUI");
+
+
 
     }
 
@@ -45,6 +52,24 @@ public class UISCript : MonoBehaviour
     }
 
 
+    IEnumerator UpdateUI()
+    {
+
+        healthBar.maxValue = healthScript.GetMaxHealth();
+        healthBar.value = healthScript.GetHealth();
+        healthText.text = "Health" + healthScript.GetHealth();
+
+        if (healthScript.IsDead)
+        {
+
+            Time.timeScale = 0;
+
+
+        }
+        yield return new WaitForSeconds(0.5f);
+        
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -52,10 +77,6 @@ public class UISCript : MonoBehaviour
         healthBar.maxValue = healthScript.GetMaxHealth();
         healthBar.value = healthScript.GetHealth();
         healthText.text = "Health" + healthScript.GetHealth();
-    
-       
 
     }
-
-
 }

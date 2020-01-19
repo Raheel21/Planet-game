@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Player 2
   - HealthPickUp
+  - GameManager
   layers:
   - Default
   - TransparentFX
