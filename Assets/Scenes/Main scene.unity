@@ -216,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSpeed: 20
   gravity: 1
-  moveSpeed: 100
+  moveSpeed: 30
   h: 0
   v: 0
 --- !u!143 &71721788
@@ -2073,7 +2073,7 @@ PrefabInstance:
     - target: {fileID: 1266639898380237246, guid: 897684888b34d72499cf8453daccd509,
         type: 3}
       propertyPath: moveSpeed
-      value: 100
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1266639898380237246, guid: 897684888b34d72499cf8453daccd509,
         type: 3}
