@@ -421,6 +421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planet_5
       objectReference: {fileID: 0}
+    - target: {fileID: 1024863018889082, guid: a6b7a3c8e644ae44ba3da920bd4d6d3c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4033495605028610, guid: a6b7a3c8e644ae44ba3da920bd4d6d3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -375
@@ -730,7 +734,7 @@ PrefabInstance:
     - target: {fileID: 197187461543447722, guid: b764c369d4952854c89b954f1c7ca504,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 197187461543447722, guid: b764c369d4952854c89b954f1c7ca504,
         type: 3}
@@ -783,7 +787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1382288685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,7 +1028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feaf67532560e8c42960948f4fef2e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thingToSpawn: {fileID: 1637311853950484, guid: 447f2689d63b2d04592d14019bf410f8,
+  thingToSpawn: {fileID: 884492406641210719, guid: f65edd0eba6c9004bb9546c1d05b0d68,
     type: 3}
   delayBetweenSpawns: 5
   timeofNextSpawn: 3
@@ -1036,7 +1040,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622788525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -643, y: -301, z: 2263}
+  m_LocalPosition: {x: -643, y: -301, z: 2386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1097,7 +1101,7 @@ PrefabInstance:
     - target: {fileID: 5523111826522889511, guid: 55cd1761299a75446b198ceaa92d8054,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5523111826522889511, guid: 55cd1761299a75446b198ceaa92d8054,
         type: 3}
