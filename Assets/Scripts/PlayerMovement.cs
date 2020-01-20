@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float gravity = 1.0f;
     float yVelocity = 0.0f;
 
-    [SerializeField] float moveSpeed = 5.0f;
+    [SerializeField] float moveSpeed = 30.0f;
     public float h;
     public float v;
 
