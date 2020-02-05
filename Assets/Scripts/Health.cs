@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     void Start()
     {
 
-        currentHealth = maximumHealth;
+        currentHealth = maximumHealth; 
 
     }
 
@@ -50,21 +50,12 @@ public class Health : MonoBehaviour
     void Update()
         {
 
-        if(currentHealth > 100)
+        if(currentHealth > 100)//if player health is more than 100
         {
 
-            currentHealth = 100; 
+            currentHealth = 100; //Health is set at 100 
 
         }
-
-
-
-
-
-
-
-
-
 
         }
     }
