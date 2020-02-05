@@ -11,15 +11,15 @@ public class Portal : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //trigger event for colliding with player
     {
 
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player") //if statement for if colliding with object with tag player
         {
 
-            DontDestroyOnLoad(other.gameObject);
-            SceneManager.LoadScene("Level"); 
-            Debug.Log("Object Teleported");
+            DontDestroyOnLoad(other.gameObject); //Do not destroy game object with tag player
+            SceneManager.LoadScene("Level"); //Load scene from scene manager called Level
+            Debug.Log("Player Teleported"); // Print log message to console that say Player Teleported 
 
         }
 

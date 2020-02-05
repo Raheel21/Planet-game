@@ -11,17 +11,15 @@ public class WallScript : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //trigger event for colliding with player
     {
-
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")   //if statement for if colliding with object with tag player
         {
 
-            Destroy(other.gameObject);
-            Debug.Log("Object Destroyed"); 
+            Destroy(other.gameObject); //Then Destroy that game object with player tag 
+            Debug.Log("Player Destroyed"); // Print log message to console that say Player destroyed 
 
         }
-
     }
 
     // Update is called once per frame
