@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class healPickup : MonoBehaviour
+public class HealPickup : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

@@ -13,7 +13,7 @@ public class UISCript : MonoBehaviour
     public int killCount; 
 
     public Health healthScript;  
-    public Text healthText;
+    public TextMeshProUGUI healthText;
     public Slider healthBar;
     
 
@@ -24,7 +24,7 @@ public class UISCript : MonoBehaviour
 
         healthBar.maxValue = healthScript.GetMaxHealth();
         healthBar.value = healthScript.GetHealth();
-        healthText.text = "Health" + healthScript.GetHealth();
+        healthText.text = "Health:" + healthScript.GetHealth();
 
         StartCoroutine("UpdateUI");
 
@@ -57,7 +57,7 @@ public class UISCript : MonoBehaviour
 
         healthBar.maxValue = healthScript.GetMaxHealth();
         healthBar.value = healthScript.GetHealth();
-        healthText.text = "Health" + healthScript.GetHealth();
+        healthText.text = "Health:" + healthScript.GetHealth();
 
         if (healthScript.IsDead)
         {
@@ -76,7 +76,7 @@ public class UISCript : MonoBehaviour
     {
         healthBar.maxValue = healthScript.GetMaxHealth();
         healthBar.value = healthScript.GetHealth();
-        healthText.text = "Health" + healthScript.GetHealth();
+        healthText.text = "Health:" + healthScript.GetHealth();
 
     }
 }

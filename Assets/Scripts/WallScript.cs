@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class WallScript : MonoBehaviour
@@ -18,6 +19,7 @@ public class WallScript : MonoBehaviour
 
             Destroy(other.gameObject); //Then Destroy that game object with player tag 
             Debug.Log("Player Destroyed"); // Print log message to console that say Player destroyed 
+            SceneManager.LoadScene("Lose Scene");
 
         }
     }

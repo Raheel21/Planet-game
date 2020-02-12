@@ -22,7 +22,7 @@ public class Shooting : MonoBehaviour {
         if (Input.GetButtonDown ("Fire1"))
         {
             Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            Cursor.visible = false;  
             Ray mouseRay = GetComponentInChildren<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hitInfo; 
 
@@ -39,7 +39,7 @@ public class Shooting : MonoBehaviour {
             }
         }
 
-
+        
 
 
 
