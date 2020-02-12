@@ -1,15 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Shooting : MonoBehaviour {
 
-    [SerializeField] int damageDealt = 25; 
+    [SerializeField] int damageDealt = 25;
+    MeshRenderer laser;
 
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false; 
+        Cursor.visible = false;
+
+        laser = transform.GetChild(0).GetChild(1).gameObject.GetComponent<MeshRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -32,12 +33,14 @@ public class Shooting : MonoBehaviour {
                 EnemyHealth enemyHealth = hitInfo.transform.GetComponent<EnemyHealth>();
                 if(enemyHealth !=null)
                 {
-
+                    
                     enemyHealth.Damage(damageDealt); 
 
                 }
             }
+            laser.enabled = true;
         }
+        else { laser.enabled = false; }
 
         
 

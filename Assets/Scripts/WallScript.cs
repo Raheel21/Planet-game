@@ -16,7 +16,8 @@ public class WallScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")   //if statement for if colliding with object with tag player
         {
-
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Destroy(other.gameObject); //Then Destroy that game object with player tag 
             Debug.Log("Player Destroyed"); // Print log message to console that say Player destroyed 
             SceneManager.LoadScene("Lose Scene");

@@ -39,6 +39,8 @@ public class Health : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Destroy(gameObject);
             Debug.Log("Player Destroyed");
             SceneManager.LoadScene("Lose Scene");

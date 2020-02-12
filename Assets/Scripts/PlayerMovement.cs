@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     float yVelocity = 0.0f;
 
     [SerializeField] float moveSpeed = 30.0f;
+    [SerializeField] float sprintSpeed = 2.0f;
     public float h;
     public float v;
 
@@ -33,6 +34,15 @@ public class PlayerMovement : MonoBehaviour
         Vector3 direction = new Vector3(h, 0, v);
         Vector3 velocity = direction*moveSpeed;
 
+        if(Input.GetKey("left shift"))
+        {
+            sprintSpeed = 10;
+        }
+        else
+        {
+            sprintSpeed = 5;
+
+        }
 
         if (charController.isGrounded)
         {
@@ -53,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
         velocity = transform.TransformDirection(velocity);
 
-        charController.Move(velocity * Time.deltaTime);
+        charController.Move(velocity * sprintSpeed * Time.deltaTime);
 
     }
 }

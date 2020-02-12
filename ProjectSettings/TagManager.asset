@@ -11,6 +11,7 @@ TagManager:
   - Player 2
   - HealthPickUp
   - GameManager
+  - Parent
   layers:
   - Default
   - TransparentFX

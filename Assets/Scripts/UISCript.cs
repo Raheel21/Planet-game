@@ -45,11 +45,29 @@ public class UISCript : MonoBehaviour
         }    
     }
 
-    public void UpdateKillCounterUI() 
+    public void UpdateKillCounterUI()
     {
 
-        killCounter_TMP.text = killCount.ToString(); 
+        killCounter_TMP.text = killCount.ToString();
+        if (killCount > 2)
+        {
+            Timer.unhide = true;
+            killCounter_TMP.text = ("Walk Path Unlocked"); 
+        }
+
+        else
+        {
+            killCounter_TMP.text = killCount.ToString();
+
+        }
+
+
+
+
+
     }
+
+
 
 
     IEnumerator UpdateUI()
