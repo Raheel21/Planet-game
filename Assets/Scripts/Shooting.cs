@@ -10,7 +10,7 @@ public class Shooting : MonoBehaviour {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        laser = transform.GetChild(0).GetChild(1).gameObject.GetComponent<MeshRenderer>();
+        laser = transform.GetChild(4).GetChild(1).gameObject.GetComponent<MeshRenderer>();
 	}
 	
 	// Update is called once per frame
