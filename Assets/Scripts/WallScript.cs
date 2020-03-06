@@ -20,7 +20,7 @@ public class WallScript : MonoBehaviour
             Cursor.visible = true;
             Destroy(other.gameObject); //Then Destroy that game object with player tag 
             Debug.Log("Player Destroyed"); // Print log message to console that say Player destroyed 
-            SceneManager.LoadScene("Lose Scene");
+            SceneManager.LoadScene("Lose Scene");//Use scene manager to load lose scene 
 
         }
     }
