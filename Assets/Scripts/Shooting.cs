@@ -4,11 +4,14 @@ public class Shooting : MonoBehaviour {
 
     [SerializeField] int damageDealt = 25;
     MeshRenderer laser;
+    AudioSource audioSrc;
+    [SerializeField] AudioClip shootclip; 
 
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        audioSrc = GetComponent<AudioSource>();
 
         laser = transform.GetChild(4).GetChild(1).gameObject.GetComponent<MeshRenderer>();
 	}
@@ -25,7 +28,9 @@ public class Shooting : MonoBehaviour {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;  
             Ray mouseRay = GetComponentInChildren<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-            RaycastHit hitInfo; 
+            RaycastHit hitInfo;
+            audioSrc.clip = shootclip;
+            audioSrc.Play(); 
 
             if (Physics.Raycast (mouseRay, out hitInfo))
             {
