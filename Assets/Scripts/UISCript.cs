@@ -8,7 +8,7 @@ public class UISCript : MonoBehaviour
 {
     public static UISCript instance;
     [SerializeField]
-    TextMeshProUGUI killCounter_TMP;
+    TextMeshProUGUI killCounter_TMP; 
     [HideInInspector]
     public int killCount; 
 

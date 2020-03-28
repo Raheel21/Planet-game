@@ -15,6 +15,10 @@ public class UnHideScript : MonoBehaviour
     {
         if (Timer.unhide)
         {
-            transform.GetChild(0).gameObject.SetActive(true); }
+            transform.GetChild(0).gameObject.SetActive(true);
+            transform.GetChild(1).gameObject.SetActive(true);
+
+
+        }
     }
 }
