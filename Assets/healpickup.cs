@@ -2,16 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealPickup : MonoBehaviour
+public class healpickup : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
     {
         
     }
@@ -23,12 +17,16 @@ public class HealPickup : MonoBehaviour
         if (health != null && collider.tag == "Player")
         {
             GetComponent<MeshRenderer>().enabled = false;
-            Destroy(gameObject);    
+            Destroy(gameObject);
             Debug.Log("Pick Up");
             health.Damage(-50);
         }
 
     }
 
-
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
