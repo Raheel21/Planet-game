@@ -12,6 +12,7 @@ TagManager:
   - HealthPickUp
   - GameManager
   - Parent
+  - Waypoint
   layers:
   - Default
   - TransparentFX

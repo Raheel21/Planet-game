@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 998631011357352671}
   - component: {fileID: 1459537588050941701}
   - component: {fileID: 3410574372786865505}
+  - component: {fileID: 2927924489267114074}
   m_Layer: 0
   m_Name: Enemy V4 Variant
   m_TagString: Enemy
@@ -95,7 +96,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.6121821
-  m_Radius: 0.932495
+  m_Radius: 1
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -135,11 +136,25 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884492406641210719}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.89827144
+  m_Radius: 3
   m_Center: {x: 0.03029394, y: -0.083313406, z: 0.03649026}
+--- !u!114 &2927924489267114074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884492406641210719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30991479b0d39434e8df94a76e603f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDelay: 1
+  damageDealt: 5
 --- !u!1 &884661384469278713
 GameObject:
   m_ObjectHideFlags: 0
