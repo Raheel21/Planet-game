@@ -46,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+
         if (charController.isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
