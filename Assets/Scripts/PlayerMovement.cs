@@ -43,6 +43,18 @@ public class PlayerMovement : MonoBehaviour
             sprintSpeed = 5;
 
         }
+        
+        if(Input.GetKey("joystick button 6"))
+        {
+            sprintSpeed = 10;
+        }
+
+        else
+        {
+
+            sprintSpeed = 5; 
+        }
+
 
 
 
