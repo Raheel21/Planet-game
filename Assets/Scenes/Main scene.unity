@@ -1174,8 +1174,8 @@ GameObject:
   - component: {fileID: 449371973}
   - component: {fileID: 449371972}
   - component: {fileID: 449371971}
-  - component: {fileID: 449371967}
   - component: {fileID: 449371966}
+  - component: {fileID: 449371965}
   m_Layer: 0
   m_Name: astronaut
   m_TagString: Player
@@ -1183,6 +1183,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &449371965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449371964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e0ae054d7bebe4886ad9da216f5dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensitivity: 5
 --- !u!114 &449371966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,20 +1209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageDealt: 25
---- !u!114 &449371967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 449371967, guid: cd3d125d94cdf2b45aae59dafff07710,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449371964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61e0ae054d7bebe4886ad9da216f5dd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensitivity: 5
 --- !u!23 &449371971
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2662,8 +2661,7 @@ Transform:
 --- !u!114 &1129227209
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1129227209, guid: cd3d125d94cdf2b45aae59dafff07710,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129227207}
@@ -2672,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3f36daa6f019245a27a6c52cd0c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivityY: 5
+  sensitivityY: 0
   minimumY: -30
   maximumY: 30
 --- !u!45 &1129227210
@@ -3816,9 +3814,9 @@ GameObject:
   - component: {fileID: 1549880986}
   - component: {fileID: 1549880985}
   - component: {fileID: 1549880987}
-  - component: {fileID: 1549880983}
   - component: {fileID: 1549880988}
   - component: {fileID: 1549880984}
+  - component: {fileID: 1549880983}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -3857,8 +3855,8 @@ MonoBehaviour:
   gravity: 1
   moveSpeed: 30
   sprintSpeed: 2
-  h: 0
-  v: 0
+  h: 1
+  v: 1
 --- !u!65 &1549880984
 BoxCollider:
   m_ObjectHideFlags: 0
