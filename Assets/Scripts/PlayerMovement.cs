@@ -34,8 +34,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 direction = new Vector3(h, 0, v);
         Vector3 velocity = direction*moveSpeed;
 
-        if(Input.GetKey("left shift" +
-            ""))
+        if(Input.GetKey("left shift"))
         {
             sprintSpeed = 10;
         }

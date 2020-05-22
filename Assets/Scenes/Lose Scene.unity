@@ -1073,8 +1073,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 981014111}
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 981014113}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1084,8 +1084,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 981014113}
-        m_MethodName: Play
+      - m_Target: {fileID: 981014111}
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 981014106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1b680eb830f8e642a3a24261486e1d7, type: 3}
+  m_Script: {fileID: 11500000, guid: ae868f0c82c53ab45a0b41e2d11546a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &981014113
