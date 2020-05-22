@@ -2670,7 +2670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3f36daa6f019245a27a6c52cd0c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivityY: 0
+  sensitivityY: 5
   minimumY: -30
   maximumY: 30
 --- !u!45 &1129227210
