@@ -3868,8 +3868,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2, z: 1.2140276}
-  m_Center: {x: 0, y: 0, z: -0.10701349}
+  m_Size: {x: 1, y: 2, z: 1.4851931}
+  m_Center: {x: 0, y: 0, z: -0.24259605}
 --- !u!23 &1549880985
 MeshRenderer:
   m_ObjectHideFlags: 0
