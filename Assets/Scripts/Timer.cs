@@ -30,6 +30,7 @@ public class Timer : MonoBehaviour
         }
     }
 
+
     IEnumerator LoseTime()
     {
         while (true)
