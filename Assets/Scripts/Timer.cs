@@ -6,7 +6,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    public int timeLeft = 30;
+    public int timeLeft = 40;
     public TextMeshProUGUI countdownText;
     public static bool unhide = false;
 

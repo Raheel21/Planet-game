@@ -49,7 +49,7 @@ public class UISCript : MonoBehaviour
     {
 
         killCounter_TMP.text = killCount.ToString();
-        if (killCount > 2)
+        if (killCount > 8)
         {
             Timer.unhide = true;
             killCounter_TMP.text = ("Walk Path Unlocked"); 
