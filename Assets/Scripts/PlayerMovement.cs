@@ -33,17 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 direction = new Vector3(h, 0, v);
         Vector3 velocity = direction*moveSpeed;
-
-        if(Input.GetKey("left shift"))
-        {
-            sprintSpeed = 10;
-        }
-        else
-        {
-            sprintSpeed = 5;
-
-        }
-        
+     
         if(Input.GetKey("joystick button 6"))
         {
             sprintSpeed = 10;
@@ -54,6 +44,19 @@ public class PlayerMovement : MonoBehaviour
 
             sprintSpeed = 5; 
         }
+
+        if (Input.GetKey("left shift"))
+        {
+            sprintSpeed = 10;
+        }
+        else
+        {
+            sprintSpeed = 5;
+
+        }
+
+
+
 
 
 
