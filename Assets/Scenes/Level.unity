@@ -828,7 +828,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4e5f95e722bc8d0428a68ad224a3ae24, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2293,19 +2293,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDelay: 3
   damageDealt: 25
---- !u!135 &1501060887
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716445907620735}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.96911806
-  m_Center: {x: 0.0051324633, y: -0.07980898, z: -0.008162054}
 --- !u!111 &1501060888
 Animation:
   m_ObjectHideFlags: 0
@@ -2363,7 +2350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feaf67532560e8c42960948f4fef2e67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thingToSpawn: {fileID: 1716446868655212, guid: 548bd10a96f01c34ea831f468d85d9b8,
+  thingToSpawn: {fileID: 1647659040801550, guid: 49cd90d77e348c14d82a541030b023ef,
     type: 3}
   delayBetweenSpawns: 5
   timeofNextSpawn: 1
@@ -3796,17 +3783,13 @@ GameObject:
   - component: {fileID: 4010857136844103}
   - component: {fileID: 33809818996846107}
   - component: {fileID: 23570508252214759}
-  - component: {fileID: 1375573075543228222}
-  - component: {fileID: 1241472371074940773}
-  - component: {fileID: 7653306440586616929}
   - component: {fileID: 7204424703040279168}
-  - component: {fileID: 1501060887}
   - component: {fileID: 1501060888}
   - component: {fileID: 1501060885}
   - component: {fileID: 1501060889}
   m_Layer: 0
   m_Name: Planet_9
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3819,7 +3802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716445907620735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -986, y: 395, z: 2305}
+  m_LocalPosition: {x: -819, y: 239, z: 2424}
   m_LocalScale: {x: 403.00735, y: 403.00735, z: 403.00735}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3940,38 +3923,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61f891223b86174cb6082b746407c4a, type: 3}
---- !u!143 &1241472371074940773
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716445907620735}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1.675974
-  m_Radius: 0.929359
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1375573075543228222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716445907620735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 899e23a1057248e46b6a5cfb086ddb02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  distance: 10
 --- !u!135 &7204424703040279168
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3985,18 +3936,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.91779613
   m_Center: {x: 0.0051324964, y: -0.07980902, z: 0.043160025}
---- !u!114 &7653306440586616929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1716445907620735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cce2e7e42e5a1874f8ece4033d89b544, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8331121250555416549
 Transform:
   m_ObjectHideFlags: 0

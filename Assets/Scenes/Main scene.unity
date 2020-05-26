@@ -1163,7 +1163,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5212c171adcd7ec40989665ba7cdd393, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1293,7 +1293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f528e83f53b6734889f2011b404a13e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageDealt: 25
+  damageDealt: 30
 --- !u!23 &449371971
 MeshRenderer:
   m_ObjectHideFlags: 0
